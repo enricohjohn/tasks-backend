@@ -11,7 +11,6 @@ public class DateUtilsTest {
 	public void testIsEqualOrFutureDate() {
 		LocalDate date = LocalDate.now();
 		boolean equalOrFutureDate = DateUtils.isEqualOrFutureDate(date);
-
 		Assert.assertTrue(equalOrFutureDate);
 	}
 
